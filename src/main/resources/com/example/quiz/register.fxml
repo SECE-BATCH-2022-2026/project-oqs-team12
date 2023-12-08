@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quiz.AllControl">
+   <children>
+      <Label layoutX="335.0" layoutY="14.0" text="Register">
+         <font>
+            <Font name="Fira Code SemiBold" size="36.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutY="-6.0" prefHeight="400.0" prefWidth="271.0">
+         <children>
+            <ImageView fitHeight="405.0" fitWidth="273.0" layoutY="2.0">
+               <image>
+                  <Image url="@360_F_345973621_sMifpCogXNoIDjmXlbLwx1QZA5ZmQVl8.jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <Label layoutX="278.0" layoutY="136.0" text="FirstName">
+         <font>
+            <Font name="Fira Code SemiBold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="177.0" text="LastName ">
+         <font>
+            <Font name="Fira Code SemiBold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="214.0" text="Email">
+         <font>
+            <Font name="Fira Code SemiBold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="247.0" text="Password">
+         <font>
+            <Font name="Fira Code SemiBold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="firstname" layoutX="375.0" layoutY="123.0" style="-fx-background-color: transparent; -fx-border-color: #000000;" />
+      <TextField fx:id="email" layoutX="375.0" layoutY="201.0" style="-fx-background-color: transparent; -fx-border-color: #000000;" />
+      <Button fx:id="signin" layoutX="413.0" layoutY="317.0" mnemonicParsing="false" onAction="#onRegButtonClick" text="SignIn">
+         <font>
+            <Font name="Fira Code SemiBold" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="username" layoutX="278.0" layoutY="100.0" text="Username">
+         <font>
+            <Font name="Fira Code SemiBold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="375.0" layoutY="87.0" style="-fx-background-color: transparent; -fx-border-color: #000000;" />
+      <PasswordField fx:id="password" layoutX="375.0" layoutY="234.0" style="-fx-background-color: transparent; -fx-border-color: #000000;" />
+      <TextField fx:id="firstname1" layoutX="375.0" layoutY="164.0" style="-fx-background-color: transparent; -fx-border-color: #000000;" />
+   </children>
+</AnchorPane>
